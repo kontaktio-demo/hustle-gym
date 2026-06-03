@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hustlefitness.pl/sitemap.xml
