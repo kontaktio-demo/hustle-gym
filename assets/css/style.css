@@ -318,7 +318,7 @@ h1,h2,h3 { font-weight: 400; line-height: .92; }
 .plan:hover { border-color: rgba(212,162,62,.45); transform: translateY(-4px); }
 .plan--featured { border-color: var(--gold); background: linear-gradient(180deg, rgba(212,162,62,.1), transparent 55%), var(--bg); }
 .plan--wide { min-height: 0; }
-.plan__ribbon { position: absolute; top: 20px; right: 20px; background: var(--gold); color: #0b0b0c; font-family: var(--f-body); font-weight: 600; font-size: 11px; letter-spacing: .02em; padding: 5px 13px; border-radius: 100px; }
+.plan__ribbon { align-self: flex-start; background: var(--gold); color: #0b0b0c; font-family: var(--f-body); font-weight: 600; font-size: 11px; letter-spacing: .02em; padding: 5px 13px; border-radius: 100px; margin-bottom: 16px; }
 .plan__name { font-family: var(--f-head); font-weight: 800; font-size: 20px; line-height: 1.15; }
 .plan__tag { font-family: var(--f-body); font-size: 13px; color: var(--gold); margin-top: 7px; }
 .plan__price { margin: 22px 0 6px; display: flex; align-items: baseline; gap: 10px; }
